@@ -1,45 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="就職するか院進するか"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「就職するか院進するか」[l][r]
 
-メロスは激怒した。[l][r]
+あなたは今理工学部の３年生の冬になろうとしている。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+文系の人たちはそろそろ本選考のことを考えようとし始めている。[l][r]
 
-(中略)[l][r]
+(来年は文系の人たちは遊び惚けているのだろう)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああ、何もかも、ばかばかしい。私は、何故理工学部に入ってしまったのだ。やんぬる哉。[l][r]
+あなたは[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_working] →就活 [endlink][r]
+[link target=*tag_studying] →院進 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_working
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=https://livedoor.blogimg.jp/idolkmv/imgs/2/1/21eb9cd7.jpg time=1]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あなたは高校生の時から理系科目に苦しめられ、大学生になっても文系より高い授業料を払っていた。ましてやコミュ力でのビハインドからの就活[l][r]
+あなたは文系に敵う術もなかった.....[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_studying
 
-[bg storage=run.jpg time=500]
+[bg storage=https://www.sej.co.jp/library/sej_case/images/satellite/int_keio/main_pic01.jpg time=1]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+矢上監獄でさらなる２年を過ごす覚悟を決めたあなた[l][r]
+今まで理系でお勉強ばっかりしてきたそんなあなたの取り柄なんぞ勉強しかない。院進万歳！！[r]
 
 【 GOOD END 】[l][cm]
 
